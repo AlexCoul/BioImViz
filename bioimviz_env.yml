@@ -1,0 +1,12 @@
+channels:
+- conda-forge
+- defaults
+dependencies:
+- napari=0.4.7
+- scikit-image=0.18.1
+- pip:
+  - aicsimageio==3.3.4
+  - aicspylibczi==2.8.0
+  - lxml==4.6.3
+  - napari-aicsimageio==0.2.0
+  - readlif==0.5.1
